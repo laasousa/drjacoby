@@ -1,4 +1,7 @@
 
+// Run the following terminal command to compile:
+// R CMD SHLIB Gaussian_model.c
+
 #include <math.h>
 
 double loglike(const double *theta, const double *x, int n) {
